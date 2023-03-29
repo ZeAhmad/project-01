@@ -1,23 +1,10 @@
-import Link from 'next/link'
-import {Header, Footer } from '@/components'
-import Counter from './Counter';
-
-const Home = () => {
+function Blog() {
   return (
-            <>
-              <h1>Welcome to my home Page </h1>
-              <Header />
-              
-              <Link href='/Blog'>Go to Blog</Link>
-              <Counter />
-              <Footer />
-            </>        
-             )
-}
-
-export default Home
-
-
+ <>
+  <h2>Blog page </h2>
+  </>
+ )}
+export default Blog
 /*
 import Head from 'next/head'
 import Image from 'next/image'
